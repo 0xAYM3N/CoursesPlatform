@@ -1,0 +1,43 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--navbar);
+    border-bottom: 1px solid var(--border);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.navbar .logo a {
+    color: var(--white);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navbar .btns {
+    display: flex;
+    gap: 12px;
+}
+
+.navbar .btns i {
+    background-color: var(--bg-color);
+    padding: 10px;
+    border-radius: .3rem;
+    font-size: 18px;
+    color: var(--white);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.navbar .btns i:hover{
+    background-color: var(--main-color);
+}
+
+.navbar .btns .search {
+    display: none;
+}

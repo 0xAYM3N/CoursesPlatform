@@ -1,0 +1,108 @@
+.hero {
+    padding-top: 150px;
+    width: 100%;
+    height: 100%;
+    --color: rgba(114, 114, 114, 0.1);
+    background-color: var(--bg-color);
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+}
+
+.hero .container {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero .text h1 {
+    color: var(--white);
+    font-size: 35x;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: var(--navbar);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 50px;
+    border-radius: .3rem;
+    border: 1px solid #444;
+}
+
+.search-bar input {
+    background-color: transparent;
+    flex: 1;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-bar .search-btn {
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: .3rem; 
+    border: none;
+    cursor: pointer;
+    transition: .3;
+}
+
+.search-bar .search-btn:hover {
+    opacity: 0.8;
+}
+
+.statistic {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 100px; 
+}
+
+.statistic .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: var(--navbar);
+    color: var(--white);
+    font-size: 20px;
+    padding: 14px 30px;
+    border-radius: 5px;
+    text-align: right;
+    line-height: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.statistic .box i {
+    display: block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--border-color);
+    color: var(--black-color);
+    font-size: 20px;
+    background: var(--main-color);
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.statistic .box h2 {
+    font-size: 16px;
+    color: var(--p-color);
+}
+
