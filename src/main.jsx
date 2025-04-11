@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Categories from "./components/Categories/Categories.jsx";
 import TopCourses from "./components/TopCourses/TopCourses.jsx";
-
 import Footer from "./components/Footer/Footer.jsx";
 import "./index.css";
 

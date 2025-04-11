@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './TopCourses.css';
 
 function TopCourses() {
@@ -9,22 +10,31 @@ function TopCourses() {
                 </div>
 
                 <div className="boxses">
-                    <div className="box">
-                        <img src="/courses/img.png" />
-                        <h1>Helllllo World</h1>
-                    </div>
-                    <div className="box">
+                    <div class="box">
                         <img src="/courses/image.png" />
-                        <h1>Helllllo World</h1>
+                        <h3 class="title">السلام عليكم</h3>
+                        <div className="btn">
+                            <a href="">عرض قائمة التشغيل</a>
+                        </div>
                     </div>
-                    <div className="box">
-                        <img src="/courses/img.png" />
-                        <h1>Helllllo World</h1>
+                    <div class="box">
+                        <img src="/courses/image.png" />
+                        <h3 class="title">السلام عليكم</h3>
+                        <div className="btn">
+                            <a href="">عرض قائمة التشغيل</a>
+                        </div>
                     </div>
-                    <div className="box">
-                        <img src="/courses/img.png" />
-                        <h1>Helllllo World</h1>
+                    <div class="box">
+                        <img src="/courses/image.png" />
+                        <h3 class="title">السلام عليكم</h3>
+                        <div className="btn">
+                            <a href="">عرض قائمة التشغيل</a>
+                        </div>
                     </div>
+                </div>
+
+                <div className="show-all">
+                    <Link to="/AllCategories">عرض جميع الكورسات</Link>
                 </div>
             </div>
         </div>
